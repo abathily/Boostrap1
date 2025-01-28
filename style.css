@@ -7,3 +7,51 @@
       background-color: #e6e4d9;
       background-image: url('images/pattern.png');
     }
+
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .brand{
+      color: #a79a85;
+      font-size: 36px;
+      font-weight: 800;
+  }
+  
+  nav{
+      display: flex;
+      justify-content: space-between; 
+      padding: 8px 12px;
+      background-color: #0F172B;
+      position: sticky;
+      top: 0;
+      left: 0;
+      right: 0;
+  }
+  
+  ul{
+      display: flex;
+      list-style: none;
+  }
+  
+  nav > ul li{
+      margin: 0 6px;
+  }
+  
+  nav > ul li a{
+      text-decoration: none ;
+      text-transform:  uppercase;
+      color: #FFFFFF;
+      font-size: 16px;
+      font-weight: 500;
+      transition: color 0.5s;
+  }
+  
+  
+  nav > ul li a:hover{
+     color: #41321b;
+      
+  }
+  
