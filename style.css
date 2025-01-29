@@ -1,57 +1,35 @@
 
-    body {
-      margin-top: 0px;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: #e6e4d9;
-      background-image: url('images/pattern.png');
-    }
 
-    body{
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 0;
-      padding: 0;
-  }
-  
-  .brand{
-      color: #a79a85;
-      font-size: 36px;
-      font-weight: 800;
-  }
-  
-  nav{
-      display: flex;
-      justify-content: space-between; 
-      padding: 8px 12px;
-      background-color: #0F172B;
-      position: sticky;
-      top: 0;
-      left: 0;
-      right: 0;
-  }
-  
-  ul{
-      display: flex;
-      list-style: none;
-  }
-  
-  nav > ul li{
-      margin: 0 6px;
-  }
-  
-  nav > ul li a{
-      text-decoration: none ;
-      text-transform:  uppercase;
-      color: #FFFFFF;
-      font-size: 16px;
-      font-weight: 500;
-      transition: color 0.5s;
-  }
-  
-  
-  nav > ul li a:hover{
-     color: #41321b;
-      
-  }
-  
+        /* Couleur de fond globale attrayante */
+        body {
+            background-color: #f7f8fc;
+            color: #333;
+        }
+
+        .navbar-brand{
+            color: #FEA116;
+            font-size: 36px;
+            font-weight: 800;
+        }
+
+        /* Couleur de la section "À propos" */
+        .bg-lightblue {
+            background-color: #e3f2fd; /* Bleu clair */
+        }
+
+        /* Couleur de la section "Service" */
+        .bg-lightgreen {
+            background-color: #d4edda; /* Vert pâle */
+        }
+
+        /* Couleur de la section "Contact" */
+        .bg-lightorange {
+            background-color: #fff3cd; /* Orange pâle */
+        }
+
+        /* Pied de page sombre */
+        footer {
+            background-color: #343a40;
+            color: white;
+        }
+    
