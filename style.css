@@ -1,6 +1,6 @@
 
 
-        /* Couleur de fond globale attrayante */
+        
         body {
             background-color: #f7f8fc;
             color: #333;
@@ -12,22 +12,22 @@
             font-weight: 800;
         }
 
-        /* Couleur de la section "À propos" */
+        
         .bg-lightblue {
-            background-color: #e3f2fd; /* Bleu clair */
+            background-color: #e3f2fd; 
         }
 
-        /* Couleur de la section "Service" */
+        
         .bg-lightgreen {
-            background-color: #d4edda; /* Vert pâle */
+            background-color: #d4edda; 
         }
 
-        /* Couleur de la section "Contact" */
+        
         .bg-lightorange {
-            background-color: #fff3cd; /* Orange pâle */
+            background-color: #fff3cd; 
         }
 
-        /* Pied de page sombre */
+        
         footer {
             background-color: #343a40;
             color: white;
